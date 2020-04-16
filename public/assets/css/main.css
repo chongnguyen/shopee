@@ -577,12 +577,13 @@ span.no-poiter {
   background-color: #fff;
   position: absolute;
   z-index: 1;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   width: 410px;
   top: calc(100% + 7px);
   right: 0px;
   display: none;
+  animation: fadeIn .3s ease-in;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .header__cart-list::before {
   content: "";
